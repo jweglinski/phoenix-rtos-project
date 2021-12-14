@@ -29,7 +29,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Get file list
-        run: cpptesttrace --cpptesttraceTraceCommand='cc|asm|CC|i386-pc-phoenix-gcc' --cpptesttraceOutputFile cpptestscan.bdf  phoenix-rtos-build/build.sh fs core project image
+        run: cpptesttrace --cpptesttraceTraceCommand='cc|asm|CC|i386-pc-phoenix-gcc'  Work/phoenix-rtos-build/build.sh fs core project image
 
       # Runs a set of commands using the runners shell
       - name: Run cpptest
