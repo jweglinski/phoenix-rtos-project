@@ -38,6 +38,8 @@ jobs:
           input: /home/buildtest/actions-runner/_work/phoenix-rtos-project/phoenix-rtos-project/cpptestscan.bdf
           installDir: /home/buildtest/cpptest
           testConfig: 'user://sum'
+          compilerConfig: gcc_9
+          additionalParams: '-settings /home/buildtest/sarif.properties'
       - name: Upload results (SARIF)
         if: always()
         uses: github/codeql-action/upload-sarif@v1
