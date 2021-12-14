@@ -36,4 +36,5 @@ jobs:
         uses: parasoft/run-cpptest-action@1.0.1
         with:
           input: cpptestscan.bdf
+          installDir: /home/buildtest/cpptest
         
