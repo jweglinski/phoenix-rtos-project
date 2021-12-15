@@ -37,7 +37,7 @@ jobs:
         with:
           input: /home/buildtest/actions-runner/_work/phoenix-rtos-project/phoenix-rtos-project/cpptestscan.bdf
           installDir: /home/buildtest/cpptest
-          testConfig: 'user://sum'
+          #testConfig: 'user://sum'
           compilerConfig: gcc_9
           additionalParams: '-settings /home/buildtest/sarif.properties'
       - name: Upload results (SARIF)
